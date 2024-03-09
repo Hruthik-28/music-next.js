@@ -18,20 +18,20 @@ function Page() {
     const handleSubmit = () => {};
     return (
         <>
-            <div className="w-full relative  min-h-screen flex flex-col justify-center items-center dark:bg-gray-900">
+            <div className="w-full relative  min-h-screen flex flex-col justify-center items-center dark:bg-gray-900 sm:p-0 p-4">
                 <BackgroundBeams className="z-0 absolute w-full h-full top-0 left-0 bg-opacity-5 bg-teal text-gray-500" />
                 <div className="w-full text-center p-2 z-10">
-                    <h2 className="font-bold sm:text-5xl text-2xl">
+                    <h2 className="font-bold text-lg md:text-7xl">
                         Contact Us
                     </h2>
-                    <p className="text-neutral-600 sm:text-sm text-xs inline-flex w-full max-w-xl flex-wrap mt-2 dark:text-neutral-300">
+                    <p className="text-neutral-600 sm:text-sm text-xs inline-flex w-full max-w-lg flex-wrap mt-2 dark:text-neutral-300">
                         We&apos;re here to help with any questions about our
                         courses, programs, or events. Reach out and let us know
                         how we can assist you in your musical journey.
                     </p>
                 </div>
                 <form
-                    className="w-full sm:max-w-lg mt-8 sm:p-0 p-2 z-10"
+                    className="w-full sm:max-w-lg mt-4 z-10"
                     onSubmit={handleSubmit}
                 >
                     <div className="flex flex-col space-y-2">

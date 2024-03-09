@@ -8,7 +8,7 @@ function Page() {
     return (
         <div className="min-h-screen bg-black pt-36">
             <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-                All Course({courseData.courses.length})
+                All Courses({courseData.courses.length})
             </h1>
             <div className="flex flex-wrap justify-center">
                 {courseData.courses.map((course) => (
